@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    
+    justify-content: center;
+    align-items: center;
+}
+.btn-top1 {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #f5ebf2;
+    font-size: 13px;
+    background: #f058cd;
+    padding: 10px 39px 10px 40px;
+    text-decoration: none;
+    border-style: none;
+    width: 65%;
+  }
+  .btn-top2{
+    position: absolute;
+    right:50px;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #0e0c0d;
+    font-size: 13px;
+    background: #eaecf3;
+    padding: 10px 39px 10px 40px;
+    text-decoration: none;
+    border-style: none;
+    width: 140px;
+    /* height: 25%; */
+  }
+  
+  
+
+.top{
+height: 100%;
+width: 100%;
+background-image: url("/images/bg-hero-desktop.svg");
+display: flex;
+flex-direction: row;
+text-align: center;
+}
+.top1{
+    flex-wrap: wrap;
+    margin-top: 20px;
+    text-align: center;
+    width: 50%;
+}
+.top1 img{
+margin-top: 40px;
+margin-bottom: 90px;
+width: 35%;
+height: 5%;
+position: relative;
+right: 25%;
+}
+
+.top1 h1{
+    margin-bottom: 30px;
+    padding-top:30px
+}
+.top1 button{
+    margin-top: 30px;
+}
+
+.top2{
+    flex-wrap: wrap;
+    width: 50%;
+}
+.top2 button{
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    left: 30%;
+}
+.top2 img{
+    margin-top: 100px;
+height: 70%;
+width: 100%;
+display: inline;
+}
+
+.middle{
+    height: 100%;
+    width: 100%;
+    padding-bottom: 150px;
+}
+.middle1{
+    text-align: justify;
+    height: 100%;
+    display: flex;
+    margin: 50px 25px 15px 25px;
+    border: 1px;
+    border-color: rgb(68, 64, 64);
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px rgb(240, 233, 233);
+}
+.middle2{
+    height: 100%;
+    display: flex;
+    margin: 50px 25px 15px 25px;
+    border: 1px;
+    border-color: rgb(68, 64, 64);
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px rgb(240, 233, 233);
+}
+.middle1 img{
+
+    height: 50%;
+    width: 50%;
+    margin: 30px 1% 30px 35% ;
+    
+}
+.middle2 img{
+
+    height: 50%;
+    width: 50%;
+    margin: 30px 35% 30px 1% 
+}
+.middle1 h3{
+margin: 70px auto 30px auto;
+    padding-left: 70px;
+
+}
+.middle p{
+    text-align: justify;
+    text-justify: newspaper;
+    color: rgb(180, 165, 165);
+    letter-spacing: normal;
+}
+.middle1 p{
+    position:relative;
+margin:auto;
+    vertical-align:middle;
+    padding-left: 70px;
+}
+.middle2 h3{
+    margin: 70px auto 30px auto;
+    padding-right: 70px;
+}
+.middle2 p{
+    position:relative;
+margin:auto;
+    vertical-align:middle;
+    padding-right: 70px;
+}
+
+.not-last{
+    background-color: white;
+    margin-top:5%;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    right: 150px;
+    width: 50%;
+    border-radius: 6px;
+    box-shadow: 1px 1px 1px 1px rgb(240, 233, 233);
+    /* height: 100px; */
+}
+
+h3{
+    margin: 20px auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600px;
+}
+
+.not-last button{
+    margin-top: 8%;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #f5ebf2;
+    font-size: 13px;
+    background: #f058cd;
+    padding: 10px 39px 10px 40px;
+    text-decoration: none;
+    border-style: none;
+    width: 65%;
+    height: 55px;
+    margin-bottom: 10%;
+
+}
+
+
+/* footer section */
+
+footer{
+    display: grid;
+    grid-template-areas:"a b c d" ;
+    background-color: rgb(35, 35, 82);
+    color: whitesmoke;
+    font-size: x-small;
+    height: 100%;
+    width: 100%;
+}
+.footer-logo{
+    filter:  brightness(0) invert(1);
+    width: 50%;
+    height: 50%;
+    margin-left :10%;
+    margin-bottom: 13%;
+
+    /* background-color: antiquewhite; */
+}
+.a img{
+    padding-left: 13%;
+    height: 10px;
+    padding-right: 20px;
+    
+}
+
+/* footer p{
+    display: inline-block;
+} */
+.a{
+    margin-top: 60px;
+    width: 100%;
+    grid-area: a;
+    /* text-align: justify; */
+    text-justify: newspaper;
+    
+}
+.a div{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    /* text-align: center; */
+}
+.b{
+    width: 50%;
+    grid-area: b;
+}
+.c{
+    width: 50%;
+    grid-area: c;
+}
+.d{
+    width: 50%;
+    grid-area: d;
+}
+
+a{
+    display: block;
+    color: white;
+    padding-bottom: 15px;
+    font-size: xx-small;
+
+}
+.footerTop-a{
+    margin-top: 100px;
+
+}
